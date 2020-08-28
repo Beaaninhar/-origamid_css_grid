@@ -109,6 +109,26 @@ img {
 /* CONTENT */
 .content {
   grid-area: content;
+  max-width: 900px;
+  margin: 0 auto; /* Centraliza */
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.col-wide {
+  /* classe criada para se expandir*/
+  grid-column: 1 / -1;
+}
+
+.imagem-1 {
+  grid-row: span 2; /* Define quais linhas serão ocupadas pelo grid item. | span 2:  O item irá ocupar duas linhas a partir de onde ele estiver*/
+  align-self: end;
+}
+
+.item-2 {
+  align-self: end;
 }
 /* Fim content*/
 
