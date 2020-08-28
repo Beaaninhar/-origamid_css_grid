@@ -33,3 +33,24 @@ img {
     "sidenav content anuncios"
     "footer footer footer";
 }
+/* DEFINE AONDE CADA CLASSE VAI FICAR SEGUINDO O grid-template-areas */
+
+.header {
+  grid-area: header;
+}
+
+.sidenav {
+  grid-area: sidenav;
+}
+
+.content {
+  grid-area: content;
+}
+
+.anuncios {
+  grid-area: anuncios;
+}
+
+.footer {
+  grid-area: footer;
+}
