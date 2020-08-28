@@ -130,6 +130,78 @@ img {
 .item-2 {
   align-self: end;
 }
+
+/*ESTILOS CONTENT*/
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  letter-spacing: -0.005em; /* aumenta ou diminui o espaço entre os caracteres em um texto*/
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Sepra os parágrafos*/
+.informacoes p + p {
+  margin-top: 30px;
+}
+/*Fim estilos content*/
+
+/*TITULO*/
+.titulo {
+  color: #b07dfb;
+}
+
+.titulo h1 {
+  font-size: 3.75em;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.titulo span {
+  font-size: 0.875em;
+  font-style: italic;
+}
+/* Fim titulo*/
+
+/* CARACTERISTICAS */
+.caracteristicas {
+  display: flex;
+  align-items: flex-start;
+}
+
+.caracteristicas > div {
+  /* > Fala diretamente com as div do pai*/
+  width: 80px;
+  text-align: center;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  position: relative;
+}
+
+.caracteristicas > div:first-child {
+  margin-right: 30px;
+}
+
+.caracteristicas span {
+  display: block;
+  color: #b07dfb;
+}
+
+.numero {
+  font-size: 3em;
+  line-height: 1;
+  margin: 10px auto;
+  color: #b07dfb;
+}
+
+.rotulo {
+  background: white;
+  border-radius: 0 0 5px 5px;
+  padding: 5px 0;
+  position: relative;
+  top: 2px;
+}
+
 /* Fim content*/
 
 /* ANUNCIOS */
