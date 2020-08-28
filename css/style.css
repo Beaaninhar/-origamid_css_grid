@@ -20,6 +20,8 @@ a {
 }
 
 img {
+  display: block;
+  border-radius: 5px;
   max-width: 100%;
 }
 
@@ -102,15 +104,33 @@ img {
 .sidenav li a:hover {
   background: #b07dfb;
 }
+/* Fim sidenav*/
 
+/* CONTENT */
 .content {
   grid-area: content;
 }
+/* Fim content*/
 
+/* ANUNCIOS */
 .anuncios {
   grid-area: anuncios;
+  background: #fafbfc;
+  display: grid;
+  align-content: start;
+  padding: 30px;
+  gap: 30px; /* Define o gap(Vão) (gutter) entre os elementos do grid. */
 }
+/* Fim anuncios */
 
+/* FOOTER */
 .footer {
   grid-area: footer;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  padding: 30px;
 }
